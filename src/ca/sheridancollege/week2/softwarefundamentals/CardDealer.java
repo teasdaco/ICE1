@@ -25,5 +25,6 @@ public class CardDealer
         Card aceSpades = new Card ("Ace", 1);
         aceSpades.setSuit("Spades");
         System.out.println(aceSpades.getValue());
+        System.out.println(aceSpades.getSuit());
     }
 }
