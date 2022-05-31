@@ -21,5 +21,9 @@ public class CardDealer
         
         System.out.println(tenDiamonds.getValue());
         System.out.println(tenDiamonds.getSuit());
+        
+        Card aceSpades = new Card ("Ace", 1);
+        aceSpades.setSuit("Spades");
+        System.out.println(aceSpades.getValue());
     }
 }
